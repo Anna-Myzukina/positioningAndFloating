@@ -68,7 +68,6 @@ header{
 	display: flex;
 	top: 0;
 	color: #fff;
-	border: 1px solid brown;
 }
 header .left_side{
 	align-items: center;
@@ -93,33 +92,59 @@ header .left_side{
 	-webkit-transition: all 1.3s ease;
 }
 
-.header_text{
+.header_text a{
 	margin-left: 15px;
-}
-.center_logo{
-    background-image: url(../positioningAndFloating/Img/logo.png)
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
 }
 
 header img{
+    height: 32px;
+    margin-left: 24vw;
+    margin-right: 24vw;
+}
+
+.rigth_side_btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 15px;
+}
+
+.btn{
 	height: 30px;
-	margin-left: 25vw;
-	margin-right: 25vw;
+    background-color: #6288a5;
+    border: 1px solid #326891;
+    color: #fff;
+    font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	line-height: 11px;
+	text-transform: uppercase;
+	border-radius: 3px;
+    cursor: pointer;
 }
-.right_side{
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.story-body-container {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-
 
 /*====== end header======*/
+/*===Start main img block====*/
+.img_container div{
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	justify-content: center;
 
+}
+.article_title{
+	font-size: 40px;
+	width: 60%;
+	display: block;
+	margin: 6% 28% 2% 28%;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/*=====END main img block====*/
 /*====START content part =====*/
 .p-story {
 	margin-bottom: 0; 
