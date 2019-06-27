@@ -83,3 +83,44 @@ table {
     justify-content: flex-end;
     align-items: center;
 }
+
+.story-body-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div {
+	display: block;
+}
+
+body {
+	font-family: monospace;
+	line-height: 1;
+}
+
+html {
+    color: -internal-root-color;
+}
+
+.p-story {
+	margin-bottom: 0; 
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - 40px);
+    max-width: 600px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
