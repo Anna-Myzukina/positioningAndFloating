@@ -238,7 +238,7 @@ main {
 /*====START content part =====*/
 .p-story {
 	margin-bottom: 0; 
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 17px;
     line-height: 24px;
     font-weight: 400;
@@ -291,3 +291,4 @@ p {
 	color: black;
 	margin-right: 0;
 }
+
