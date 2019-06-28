@@ -56,7 +56,25 @@ table {
 *{
     box-sizing: border-box;
 }
-
+.paragraph_style{
+	color: rgb(154, 154, 154);
+}
+.paragraph_middle{
+	font-size: 12px;
+	text-transform: capitalise;
+}
+.h3_anna{
+	font-size: 18px;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.default_size{
+	font-size: 16px;
+}
+.small_size{
+	font-size: 10px;
+	text-transform: capitalize;
+}
 /*==== header ===*/
 
 header{
@@ -170,18 +188,8 @@ main {
 	  line-height: 1.1em;
 	  font-size: 14px;
   }
-  .last_p{
-	  line-height: 1.1em;
-	  font-size: 12px;
-	  text-transform: capitalize;
-	  color: rgb(154, 154, 154);
-  }
   
-  h3{
-	  font-size: 18px;
-	  text-transform: capitalize;
-	  font-weight: bold;
-  }
+
   main .date {
 	display: inline-block;
 	font-size: 12px;
@@ -292,3 +300,106 @@ p {
 	margin-right: 0;
 }
 
+/*==== END under big img content====*/
+
+
+
+/*====MORE in space====*/
+.footer_sidebar{
+	display: grid;
+	grid-template-columns: 72% 28%;
+	margin: 0 auto;
+	width: 95%;
+}
+.img_section{
+	padding: 5px 0;
+}
+.img_section .image_gallery{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	line-height: 1.2em;
+}
+.img_section .image_gallery div{
+	margin-right: 20px;
+	margin-bottom: 25px;
+	width: 255px;
+}
+.img_section img{
+	width: 255px;
+}
+.footer_sidebar a:link{
+	text-decoration: none;
+	color: black;
+}
+
+/*===right side*/
+.right_side{
+	padding: 5px 0 0 15px;
+	line-height: 1.2em;
+}
+.article_title{
+	border-top: 1px solid #e4e6e8;
+	padding: 10px 0;
+	margin: 20px 3px;
+	font-size: 18px;
+	
+}
+
+/*===END sidebar*/
+
+/*===footer===*/
+footer{
+	display: grid;
+	grid-template-rows: auto auto 80px;
+	justify-content: center;
+}
+.links_logo{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	width: 95%;
+	border-top: 4px double #d0d2d3;
+}
+.links_logo img{
+	height: 28px;
+}
+.links_logo a:link{
+	color: #387cc1;
+}
+footer a:link{
+	text-decoration: none;
+	color: rgb(44, 44, 44);
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.links_section{
+	display: grid;
+	grid-template-columns: auto 200px;
+	margin: 10px 35px;
+	line-height: 1.3em;
+}
+.links{
+	display: flex;
+	flex-flow: row wrap;
+}
+.links div{
+	width: 190px;
+}
+.links_section h4{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-size: 17px;
+	font-weight: bold;
+}
+.subscribe{
+	border-left: 1px solid #d0d2d3;
+	padding-left: 12px;
+}
+.subscribe-option{
+	font-weight: bold;
+	text-transform: capitalize;
+	line-height: 2em;
+	font-size: 14px;
+}
