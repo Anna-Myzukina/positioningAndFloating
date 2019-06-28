@@ -75,6 +75,9 @@ table {
 	font-size: 10px;
 	text-transform: capitalize;
 }
+footer ul>li>a:hover{
+	text-decoration: underline;
+}
 /*==== header ===*/
 
 header{
@@ -392,6 +395,10 @@ p {
 .img_section img{
 	width: 255px;
 }
+.paragraph_right{
+	text-align: right;
+    color: rgb(153, 153, 153);
+}
 .footer_sidebar a:link{
 	text-decoration: none;
 	color: black;
@@ -424,17 +431,20 @@ footer{
 	align-items: baseline;
 	width: 95%;
 	border-top: 4px double #d0d2d3;
+	padding-top: 10px;
 }
 .links_logo img{
 	height: 28px;
 }
 .links_logo a:link{
 	color: #387cc1;
+	font-size: 10px;
+	text-transform: capitalize;
 }
 footer a:link{
 	text-decoration: none;
 	color: rgb(44, 44, 44);
-	font-size: 14px;
+	
 	text-transform: capitalize;
 }
 
@@ -461,9 +471,42 @@ footer a:link{
 	border-left: 1px solid #d0d2d3;
 	padding-left: 12px;
 }
-.subscribe-option{
+.subscribe_option{
 	font-weight: bold;
 	text-transform: capitalize;
 	line-height: 2em;
 	font-size: 14px;
+}
+.subscribe_option i{
+	margin-right: 6px;
+}
+.subscribe ul:nth-of-type(2){
+	font-size: 12px;
+	text-transform: capitalize;
+	border-bottom: 1px solid #d0d2d3;
+	color: rgb(154, 154, 154);
+	margin: 15px 2px;
+}
+.subscribe ul:nth-of-type(3){
+	font-size: 10px;
+}
+
+.copyright{
+	text-align: center;
+	width: 97%;
+	border-top: 1px solid #d0d2d3;
+}
+
+.copyright_lincs{
+	font-size: 11px;
+	text-transform: capitalize;
+	margin: 12px 0;
+	justify-content: space-between;
+}
+.copyright_lincs a{
+	margin-right: 12px;
+}
+.copyright_lincs a:hover{
+	text-decoration: underline;
+	color: #d0d2d3;
 }
