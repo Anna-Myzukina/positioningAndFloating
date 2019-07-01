@@ -160,17 +160,27 @@ main {
 	margin: 0 auto;
 	display: block;
   }
-  .article_block{
+  .article_head{
 	  line-height: 1.5em;
   }
-  main article {
+  .article_head {
 	margin: auto;
 	width: 50%;
 	max-width: 600px;
 	background-color: white;
   }
   
-  .article_block h1{
+  .article_block {
+		margin-left: calc((100% - 600px) / 2);
+		width: 50%;
+		max-width: 600px;
+		background-color: white;
+		float: left;
+  }
+
+ 
+
+  .article_head h1{
 	  font-size: 30px;
 	  font-weight: bold;
 	  line-height: 1.2em;
@@ -274,6 +284,130 @@ p {
     margin-inline-end: 0px;
 }
 
+/*START INFLATION*/
+
+.inflation p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.1875rem;
+    line-height: 1.8125rem;
+}
+
+.inflation h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    line-height: 1.8125rem;
+}
+
+.inflation div {
+    display: block;
+    font-size: 1.1875rem;
+    line-height: 1.8125rem;
+}
+
+.inflation .graphic-parent {
+    width: 100%;
+    overflow: hidden;
+    font-size: 1.1875rem;
+    line-height: 1.8125rem;
+}
+
+.inflation .graphic {
+    height: auto;
+    position: relative;
+    width: 720px;
+    font-size: 1.1875rem;
+    line-height: 1.8125rem;
+}
+
+.inflation .graphic img {
+    display: block;
+    height: auto;
+    width: 720px;
+}
+
+.inflation .graphic p {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #000000;
+    margin: 0;
+}
+
+.inflation .graphic .bold {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.inflation .graphic .top-1 {
+    width: 173px;
+    position: absolute;
+    left: 0.2544%;
+    top: 18.0556%;
+
+}
+
+.inflation .graphic .top-2 {
+    left: 25.7029%;
+    top: 18.0556%;
+    position: absolute;
+    width: 173px;
+}
+
+.inflation .graphic .top-3 {
+    left: 51.1511%;
+    top: 18.0556%;
+    position: absolute;
+    width: 173px;
+}
+
+.inflation .graphic .top-4 {
+    left: 76.5995%;
+    top: 18.0556%;
+    position: absolute;
+    width: 173px;
+}
+
+.inflation .graphic .bottom-1 {
+    left: 0.2544%;
+    top: 65.8951%;
+    position: absolute;
+    width: 173px;
+}
+
+.inflation .graphic .bottom-2 {
+    left: 25.7029%;
+    top: 65.8951%;
+    position: absolute;
+    width: 173px;
+}
+
+.inflation .graphic .bottom-3 {
+    left: 51.1511%;
+    top: 65.8951%;
+    position: absolute;
+    width: 173px;
+}
+
+.inflation .graphic .bottom-4 {
+    left: 76.5995%;
+    top: 65.8951%;
+    position: absolute;
+    width: 173px;
+}
+
+/*END INFLATION*/
+
 .story-body-vid {
     width: 600px;
     margin: 43px auto;
@@ -333,6 +467,90 @@ p {
     font-size: 11px;
     line-height: 18px;
 }
+
+/*--START OF Editor picks on the right side----*/
+
+.aside1 {
+    grid-column: 3/-1;
+    grid-row: 7;
+    max-width: 200px;
+	justify-self: center;
+	display: block;
+	font-size: 100%;
+    font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	color: #505050;
+	display: block;
+}
+
+
+.aside1 h4 {
+	font-size: 1em;
+    border-bottom: 1px solid grey;
+	color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.aside1 a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 15px;
+    font-size: .9em;
+    align-items: center;
+    color: rgb(80, 78, 78);
+}
+
+a {
+	text-decoration: none;
+}
+
+.aside1 a img {
+	min-width: 50px;
+	width: 100%;
+}
+
+/*--END OF Editor picks on the right side----*/
+
+ /*---START aside-----*/
+
+ aside {
+	margin-top: 200px;
+	float: right;
+	width: calc((100% - 600px) / 2);
+	min-height: 300px;
+}
+
+.aside2 {
+  max-width: 190px;
+  align-self: center;
+  justify-self: center;
+}
+
+.aside2 h4 {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+[href="sign up"] {
+  background: rgb(98,136,165);
+  color: white;
+  font-size: .7em;
+  padding: 1em;
+  border-radius: .3em;
+  font-weight: bold;
+  text-align: center;
+}
+  
+/*-----END aside-------*/
 
 .text_under_article{
 	font-size: 14px;
