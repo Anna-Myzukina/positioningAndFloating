@@ -91,6 +91,7 @@ header{
 	background-color: #fff;
 	box-shadow: rgba(0,0,0,0.08) 0 0 5px 1px;
 	border-bottom: 1px solid #e2e2e2;
+	z-index: 10;
 }
 header .left_side{
 	align-items: center;
@@ -112,8 +113,7 @@ header .left_side{
 }
 .header_icons i:hover{
 	background: rgba(238, 239, 239, 0.8);
-	transition: all 1s ease;
-	-webkit-transition: all 1.3s ease;
+
 }
 
 .header_text a{
