@@ -78,9 +78,14 @@ table {
 footer ul>li>a:hover{
 	text-decoration: underline;
 }
+
+a>span{
+	color: rgb(44, 44, 44);
+}
+
 /*==== header ===*/
 
-header{
+.header{
 	position: fixed;
 	width: 100%;
 	height: 40px;
@@ -93,7 +98,7 @@ header{
 	border-bottom: 1px solid #e2e2e2;
 	z-index: 10;
 }
-header .left_side{
+.header .left_side{
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
@@ -123,7 +128,7 @@ header .left_side{
 	font-weight: bold;
 }
 
-header img{
+.header img{
     height: 32px;
     margin-left: 24vw;
     margin-right: 24vw;
@@ -283,7 +288,13 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-
+.p-story>a{
+	text-decoration: underline;
+	color: #326891;
+}
+.p-story>a:hover{
+	text-decoration: none;
+}
 /*START INFLATION*/
 
 .inflation p {
@@ -478,7 +489,6 @@ p {
 	display: block;
 	font-size: 100%;
     font: inherit;
-	vertical-align: baseline;
 	box-sizing: border-box;
 	color: #505050;
 	display: block;
@@ -634,7 +644,12 @@ a {
 	font-size: 18px;
 	
 }
-
+.article_title>a{
+	color: rgb(8, 8, 8);
+}
+.article_title>a:hover{
+	color: rgb(97, 93, 93);
+}
 /*===END sidebar*/
 
 /*===footer===*/
@@ -723,6 +738,7 @@ footer a:link{
 }
 .copyright_lincs a{
 	margin-right: 12px;
+	color: rgb(44, 44, 44);
 }
 .copyright_lincs a:hover{
 	text-decoration: underline;
