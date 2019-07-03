@@ -183,7 +183,9 @@ main {
 		float: left;
   }
 
- 
+ .article_block>div{
+	 margin-bottom: 20px;
+ }
 
   .article_head h1{
 	  font-size: 30px;
@@ -273,10 +275,7 @@ main {
     margin-right: auto;
     width: calc(100% - 40px);
 	max-width: 600px;
-	margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
+	
 }
 
 .p-story strong {
@@ -530,7 +529,9 @@ a {
   align-self: center;
   justify-self: center;
 }
-
+.aside2 p{
+	margin-bottom: 10px;
+}
 .aside2 h4 {
   color: black;
   font-weight: bold;
@@ -538,7 +539,7 @@ a {
   display: block;
 }
 
-[href="sign up"] {
+.sign-up {
   background: rgb(98,136,165);
   color: white;
   font-size: .7em;
