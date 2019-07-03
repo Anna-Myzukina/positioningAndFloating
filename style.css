@@ -61,7 +61,7 @@ table {
 }
 .paragraph_middle{
 	font-size: 12px;
-	text-transform: capitalise;
+	text-transform: capitalize;
 }
 .h3_anna{
 	font-size: 18px;
@@ -146,7 +146,7 @@ a>span{
     background-color: #6288a5;
     border: 1px solid #326891;
     color: #fff;
-    font-size: 11px;
+    font-size: 7px;
 	font-weight: 700;
 	letter-spacing: 0.05em;
 	line-height: 11px;
@@ -272,7 +272,11 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: calc(100% - 40px);
-    max-width: 600px;
+	max-width: 600px;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
 
 .p-story strong {
@@ -282,10 +286,7 @@ main {
 
 p {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+
 }
 .p-story>a{
 	text-decoration: underline;
@@ -551,7 +552,7 @@ a {
 
 .text_under_article{
 	font-size: 14px;
-	line-height: 1.rem;
+	line-height: 1rem;
 	color: rgb(154, 154, 154);
 	margin-left: auto;
     margin-right: auto;
@@ -605,10 +606,10 @@ a {
 .img_section .image_gallery div{
 	margin-right: 20px;
 	margin-bottom: 25px;
-	width: 255px;
+	width: 240px;
 }
 .img_section img{
-	width: 255px;
+	width: 240px;
 }
 .paragraph_right{
 	text-align: right;
@@ -652,6 +653,7 @@ footer{
 	width: 95%;
 	border-top: 4px double #d0d2d3;
 	padding-top: 10px;
+	margin-left: 35px;
 }
 .links_logo img{
 	height: 28px;
@@ -673,6 +675,7 @@ footer a:link{
 	grid-template-columns: auto 200px;
 	margin: 10px 35px;
 	line-height: 1.3em;
+	
 }
 .links{
 	display: flex;
@@ -680,6 +683,8 @@ footer a:link{
 }
 .links div{
 	width: 190px;
+	height: 337px;
+    flex: 1 1 0%;
 }
 .links_section h4{
 	text-transform: uppercase;
@@ -725,9 +730,10 @@ footer a:link{
 }
 .copyright_lincs a{
 	margin-right: 12px;
-	color: rgb(44, 44, 44);
+	color: rgb(153, 153, 153);;
 }
 .copyright_lincs a:hover{
 	text-decoration: underline;
-	color: #d0d2d3;
+	text-decoration-color: #999;
+	color: rgb(153, 153, 153);;
 }
