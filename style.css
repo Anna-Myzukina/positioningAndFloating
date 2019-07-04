@@ -494,7 +494,7 @@ p {
     font-size: 1.2em;
 }
 
-.aside1 a {
+.aside1 a>figure {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
